@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net11.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>TimerVisual</RootNamespace>
+    <AssemblyName>TimerVisual</AssemblyName>
+    <ApplicationIcon>Timer.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Sons\*.wav" LogicalName="Sons.%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>
